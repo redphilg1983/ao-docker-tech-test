@@ -11,6 +11,8 @@ services:
 
     mvc:
         depends_on:
-            - reverseproxy
+            -   reverseproxy
+        build:
+            context: .
         image: mvc
         restart: always
