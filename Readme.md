@@ -1,3 +1,15 @@
+Part 1 of the challenge completed.
+
+Clone the repo and run a build.  
+Navigate to the repo in Powershell.
+You will find an updated docker-compose file, an nginx.conf for the new configuration of the nginx container and the details to build the current MVC.
+If you run 'docker-compose up --build', this will get the latest changes in your code and build a new image before running the new container.
+You should be able to access the MVC on port 8084 setup in the nginx config.
+
+To check and test this works, run docker-compose down.
+Make a change or two to one of the views and save the file.
+Run 'docker-compose up --build' again and check for the changes.  You should now see these.
+
 # AO Tech Challenge
 
 Welcome to the AO Tech challenge!
